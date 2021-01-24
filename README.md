@@ -8,11 +8,11 @@ Prvky- jsou definovány počáteční značkou, obsahem a koncovou značkou
 
 Atributy- poskytují další informace o prvcích, uvedeny v počáteční značce, název + hodnota
 
-Komentáře- <!--komentář -->
+Komentáře- ``` <!--komentář --> ```
 
 Struktura webu:
 
-´´´
+```
 <!DOCTYPE HTML>
 <html lang="cs">
   <head>
@@ -27,7 +27,7 @@ Struktura webu:
 
    </body>
 </html>
-´´´
+```
 
 Content:
 
