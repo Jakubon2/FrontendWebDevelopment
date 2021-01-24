@@ -41,7 +41,7 @@ Odstavce- ```<p>text<p>```
 
 Odkazy- ```<a href=''>odkaz</a>    <a href='mailto:'>odkaz</a>    <a href='tel:'>odkaz</a>```
 
-Seznamy- seřazený- ```<ol> <li> </li> <li> </li> </ol>```, neuspořádaný- ```<ol> <li> </li> <li> </li> </ol>```
+Seznamy- seřazený- ```<ol> <li> </li> <li> </li> </ol>```, neuspořádaný- ```<ul> <li> </li> <li> </li> </ul>```
 
 Tabulky- <table><thead><tr><th>Name</th><th>Email</th><th>Age</th></tr></thead><tbody><tr><td>Brad</td><td>email@email.com</td><td>32</td></tr></tbody></table>
 
@@ -58,6 +58,8 @@ Tabulka- <form><label>First Name</lable><input type='text'><label>Last Name</lab
 Sémantické prvky- <img src='semantika.jpg' alt='semantika'> <br>
 
 Základní atributy- class, id - ke stylu
+
+Prvky pro definování částí webu- div a span, div- block= začíná a končí na novém řádku, span- inline= na stejném řádku
 
 
 CSS- Cascading Stylesheets, popisuje, jak se mají prvky zobrazovat
