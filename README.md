@@ -11,7 +11,7 @@ Atributy- poskytují další informace o prvcích, uvedeny v počáteční znač
 Komentáře- <!--komentář -->
 
 Struktura webu:
-
+´´´
 <!DOCTYPE HTML>
 <html lang="cs">
   <head>
@@ -26,6 +26,7 @@ Struktura webu:
 
    </body>
 </html>
+´´´
 
 Content:
 
@@ -44,7 +45,7 @@ CSS- Cascading Stylesheets, popisuje, jak se mají prvky zobrazovat
 
 Syntax- selektor {vlastnost: hodnota;}
 
-Komentář- /*komentář*/
+Komentář- /* komentář */
 
 
 
