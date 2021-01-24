@@ -23,6 +23,8 @@ Struktura webu:
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1", shrink-to-fit='no' />
     <meta name="description" content="" />
+
+    <title>title</title>
   
   </head>
    <body>
@@ -49,7 +51,12 @@ Tlačítka- ```<button>tlacitko</button>```
 
 Obrázek- ``` <img src='' alt=''>```
 
-Sémantické prvky- <img src='semantika.jpg' alt='semntika'>
+Tabulka- <form><label>First Name</lable><input type='text'><label>Last Name</lable><input type='text'><label>Email</lable><input type='email'><label>Message</label><textarea></teaxtarea><label>Gender</label><select><option>Male</option><option>Female</option></select><input type='checkbox'>C<input type='checkbox'>Java<input type='checkbox'>Python<input type='radio'>yes<input type='radio'>no<input type='submit'></form>
+
+```<form><label>First Name</lable><input type='text'><label>Last Name</lable><input type='text'><label>Email</lable><input type='email'><label>Message</label><textarea></teaxtarea><label>Gender</label><select><option>Male</option><option>Female</option></select><input type='checkbox'>C<input type='checkbox'>Java<input type='checkbox'>Python<input type='radio'>yes<input type='radio'>no<input type='submit'></form>```
+
+Sémantické prvky- <img src='semantika.jpg' alt='semantika'> <br>
+
 Základní atributy- class, id - ke stylu
 
 
