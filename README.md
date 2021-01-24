@@ -11,6 +11,7 @@ Atributy- poskytují další informace o prvcích, uvedeny v počáteční znač
 Komentáře- <!--komentář -->
 
 Struktura webu:
+
 ´´´
 <!DOCTYPE HTML>
 <html lang="cs">
