@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
+table {
+    margin: auto;
+    border: 2px solid black;
+}
+
+ th, td {
+    border: 2px solid black;
+}
+
+input[type='submit'] {
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: darkcyan;
+    font-weight: bold;
+}
+
+input[type='submit']:hover {
+    cursor: pointer;
+}
+
+p {
+    font-weight: bold;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 30px;
+}
+
+textarea {
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+form {
+    font-size: 1.4rem;
+}

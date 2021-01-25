@@ -68,6 +68,46 @@ Syntax- selektor {vlastnost: hodnota;}
 
 Komentář-``` /* komentář */ ```
 
+Metody přidání CSS na web: 
+
+1. mezi prvky ```<style></style>```
+2. odkazem ```<link rel='stylesheet' href=''>```
+
+Selektory- 
+
+.class- třída
+#id- id
+*- všechno
+prvek- prvek
+prvek.class- všechny určité prvky s určitou třídou
+prvek,prvek- všechny určité prvky a jiné určité prvky
+div p- všechny p v div
+div > p- všechny p kde je rodič div
+prvek[atribut='hodnota']- určitý prvek s atributem a jeho hodnotou
 
 
+
+CSS Box Model- <img src='boxmodel.jpg' alt='boxmodel'>
+
+Pozicování-
+
+position: static- normálně v dokumentu, relative- posunuto z normálního umístění, fixed- při skrolování zůstává, absolute- vyjmut z toku dokumentu, umístěn na souřadnicích, sticky- drží pozici, dokud je vidět rodič
+
+Display- block- zaplní celý řádek, inline- zaplní jen kolik potřebuje, inline-block- umožňuje
+
+Opacity- určuje průhlednost, 0 - 1, 1- průhledná
+
+Jednotky- absolutní a relativní, absoultní px- pixel, relativní rem- relative to font-size root prvku, %- relativní k rodičovskému prvku
+
+Zarovnání prvků- float, hodnoty- right, left
+
+Pseudotřídy-
+
+Pseudoprvky-
+
+Animace-
+
+Flexbox-
+
+Grid-
 
