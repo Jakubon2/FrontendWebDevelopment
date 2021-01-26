@@ -113,6 +113,8 @@ Pseudotřídy- pro speciální události prvků, ```selector:pseudo-class { prop
 
 Pseudoprvky- pro stylování určitých čáastí prvků, ```selector::pseudo-class { property: value;}``` např.: ::after, ::before, ::first-letter, ::first-line
 
+Media queries- @media screen and (vlastnost: hodnota) { }, k responzivitě, vlastnosti- max-width, min-width
+
 Box-sizing- border-box / content-box, border-box - padding a border jsou započítány do výšky a šířky
 
 Flexbox-jednotlivé boxy musí být v kontejneru s display: flex, velikost boxů se určuje vlastností flex, pořadí vlastností order, flex-direction, justify-content, viz flexbox.html
