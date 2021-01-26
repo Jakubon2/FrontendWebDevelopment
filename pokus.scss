@@ -1,0 +1,30 @@
+$maintext: #000000;
+
+body {
+    color: $maintext;
+    p {
+        color: $maintext;
+    }
+    &:hover {
+        color: red;
+    }
+}
+
+.button {
+    color: red;
+    margin-top: 50px;
+}
+
+.push-button {
+    @extend .button;
+}
+
+@mixin heading-font {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    @include heading-font;
+}
+

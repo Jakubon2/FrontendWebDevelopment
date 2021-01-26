@@ -76,13 +76,21 @@ Metody přidání CSS na web:
 Selektory- 
 
 .class- třída
+
 #id- id
+
 *- všechno
+
 prvek- prvek
+
 prvek.class- všechny určité prvky s určitou třídou
+
 prvek,prvek- všechny určité prvky a jiné určité prvky
+
 div p- všechny p v div
+
 div > p- všechny p kde je rodič div
+
 prvek[atribut='hodnota']- určitý prvek s atributem a jeho hodnotou
 
 
@@ -101,13 +109,14 @@ Jednotky- absolutní a relativní, absoultní px- pixel, relativní rem- relativ
 
 Zarovnání prvků- float, hodnoty- right, left
 
-Pseudotřídy-
+Pseudotřídy- pro speciální události prvků, ```selector:pseudo-class { property: value;}``` např.: :hover, :link, :visited, :active
 
-Pseudoprvky-
+Pseudoprvky- pro stylování určitých čáastí prvků, ```selector::pseudo-class { property: value;}``` např.: ::after, ::before, ::first-letter, ::first-line
+
+Box-sizing- border-box / content-box, border-box - padding a border jsou započítány do výšky a šířky
+
+Flexbox-jednotlivé boxy musí být v kontejneru s display: flex, velikost boxů se určuje vlastností flex, pořadí vlastností order, flex-direction, justify-content, viz flexbox.html
+
+Grid- boxy v kontejneru s display: grid, vlastnosti- grid-template-columns, grid-template-rows, grid-template-areas, grid-area, viz grid.html
 
 Animace-
-
-Flexbox-
-
-Grid-
-

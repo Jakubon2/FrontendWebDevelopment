@@ -1,0 +1,22 @@
+body {
+  color: #000000;
+}
+
+body p {
+  color: #000000;
+}
+
+body:hover {
+  color: red;
+}
+
+.button, .push-button {
+  color: red;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+/*# sourceMappingURL=pokus.css.map */
