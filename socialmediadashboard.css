@@ -1,0 +1,123 @@
+.header-text-wrapper {
+    grid-area: header-text-wrapper;
+    float: left;
+   
+}
+
+.button-wrapper {
+    grid-area: button-wrapper;
+    float: right;
+    
+}
+
+button {
+    float: right;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto 1fr auto;
+    grid-template-areas: 'header-text-wrapper header-text-wrapper button-wrapper button-wrapper'
+    'facebook twitter instagram youtube'
+    'text text text text'
+    'facebook-mini-1 twitter-mini-1 instagram-mini-1 youtube-mini-1'
+    'facebook-mini-2 twitter-mini-2 instagram-mini-2 youtube-mini-2';
+    justify-content: center;
+    column-gap: 60px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+
+.grid-container > div {
+  margin-top: 0;
+
+}
+
+.facebook {
+    grid-area: facebook;
+    background: #121212;
+    height: 200px;
+    
+   
+}
+
+.instagram {
+    grid-area: instagram;
+    background: #121212;
+    height: 200px;
+  
+    
+}
+
+.twitter {
+    grid-area: twitter;
+    background: #121212;
+    height: 200px;
+   
+}
+
+.youtube {
+    grid-area: youtube;
+    background: #121212;
+    height: 200px;
+    
+    
+}
+
+.text {
+    grid-area: text;
+}
+
+.facebook-mini-1 {
+    grid-area: facebook-mini-1;
+    height: 100px;
+    background: #121212;
+}
+
+.instagram-mini-1 {
+    grid-area: instagram-mini-1;
+    height: 100px;
+    background: #121212;
+}
+
+.twitter-mini-1 {
+    grid-area: twitter-mini-1;
+    height: 100px;
+    background: #121212;
+}
+
+.youtube-mini-1 {
+    grid-area: youtube-mini-1;
+    height: 100px;
+    background: #121212;
+}
+
+
+
+.facebook-mini-2 {
+    grid-area: facebook-mini-2;
+    height: 100px;
+    background: #121212;
+}
+
+.instagram-mini-2 {
+    grid-area: instagram-mini-2;
+    height: 100px;
+    background: #121212;
+}
+
+.twitter-mini-2 {
+    grid-area: twitter-mini-2;
+    height: 100px;
+    background: #121212;
+}
+
+.youtube-mini-2 {
+    grid-area: youtube-mini-2;
+    height: 100px;
+    background: #121212;
+}

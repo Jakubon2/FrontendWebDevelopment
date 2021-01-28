@@ -121,4 +121,13 @@ Flexbox-jednotlivé boxy musí být v kontejneru s display: flex, velikost boxů
 
 Grid- boxy v kontejneru s display: grid, vlastnosti- grid-template-columns, grid-template-rows, grid-template-areas, grid-area, viz grid.html
 
-Animace-
+Bootstrap- CSS framework, tip: kouknout na dokumentaci
+
+containers- pro dání contentu v ně, .container- responsive fixed width container, .container-fluid- full width container, row pro horiyontální skupiny columns, columns- col-sm, col-md, col-lg, col-xl
+grid- 12 columns, 
+alerts, forms, inputs, buttons, badges, progress bars, pagination, cards, dropdowns, navbars, carousel
+
+
+Sass-
+
+Javascript-
